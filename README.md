@@ -65,4 +65,6 @@ export default class Index extends Controller {
 }
 ```
 
+# beta
 
+do not use it right now ,please wait for testing.
