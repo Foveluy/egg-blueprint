@@ -5,14 +5,14 @@ Routing decorator for eggjs
 
 # Usage
 
-### setup
 
-For isntall
+
+### For isntall
 ```bash
 npm install --save  egg-blueprint
 ```
 
-
+### setup
 In `router.ts`
 
 ```ts
@@ -26,7 +26,7 @@ export default (app: Application) => {
 
 ```
 
-for prefix url
+### for prefix url
 ```js
 //router.ts
 Blueprint(app,{prefix:'/api'})
