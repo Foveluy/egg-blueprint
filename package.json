@@ -1,74 +1,48 @@
 {
-    "name": "egg-blueprint",
-    "version": "0.1.0",
-    "description": "egg dependency injection lib",
-    "main": "index.js",
-    "files": [
-        "index.js",
-        "index.d.ts"
-    ],
-    "scripts": {
-        "cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
-        "ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-        "test": "jest --watch",
-        "test-local": "egg-bin test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/shepherdwind/egg-di.git"
-    },
-    "keywords": [
-        "egg",
-        "di"
-    ],
-    "author": "Eward.song",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/shepherdwind/egg-di/issues"
-    },
-    "devDependencies": {
-        "@types/jest": "^21.1.0",
-        "@types/node": "^8.0.0",
-        "@types/should": "^11.2.0",
-        "coveralls": "^2.13.3",
-        "egg": "^2.5.0",
-        "egg-bin": "^4.6.2",
-        "egg-mock": "^3.17.0",
-        "jest": "^21.0.0",
-        "should": "^13.1.0",
-        "supertest": "^3.0.0",
-        "ts-jest": "^21.0.0",
-        "ts-node": "^3.0.6",
-        "tslint": "^5.4.3",
-        "tslint-config-prettier": "^1.1.0",
-        "tslint-config-standard": "^6.0.0",
-        "typescript": "^2.3.4"
-    },
-    "jest": {
-        "transform": {
-            ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-        },
-        "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-        "moduleFileExtensions": [
-            "ts",
-            "tsx",
-            "js"
-        ],
-        "coveragePathIgnorePatterns": [
-            "/node_modules/",
-            "/test/"
-        ],
-        "coverageThreshold": {
-            "global": {
-                "branches": 90,
-                "functions": 95,
-                "lines": 95,
-                "statements": 95
-            }
-        }
-    },
-    "homepage": "https://github.com/shepherdwind/egg-di#readme",
-    "dependencies": {
-        "reflect-metadata": "^0.1.12"
-    }
+  "name": "egg-blueprint",
+  "version": "1.0.0",
+  "description": "Routing decorator for eggjs",
+  "main": "./lib/index.js",
+  "egg": {
+    "typescript": true
+  },
+  "dependencies": {
+    "egg": "^2.5.0",
+    "egg-scripts": "^2.5.1",
+    "egg-view-nunjucks": "^2.2.0",
+    "moment": "^2.21.0",
+    "source-map-support": "^0.5.4"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.1",
+    "@types/mocha": "^2.2.40",
+    "@types/node": "^7.0.12",
+    "@types/supertest": "^2.0.0",
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "egg-bin": "^4.6.0",
+    "egg-mock": "^3.16.0",
+    "egg-ts-helper": "^1.4.2",
+    "rimraf": "^2.6.1",
+    "tslib": "^1.8.1",
+    "tslint": "^4.0.0",
+    "typescript": "^2.8.1"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start",
+    "dev": "egg-bin dev -r egg-ts-helper/register",
+    "tsc": "ets && tsc -p tsconfig.json",
+    "clean": "ets clean",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test -r egg-ts-helper/register",
+    "cov": "egg-bin cov",
+    "lint": "tslint .",
+    "ci": "npm run lint && npm run cov",
+    "debug": "egg-bin debug",
+    "autod": "autod"
+  }
 }

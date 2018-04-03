@@ -40,7 +40,10 @@
         "enable": true,
         "matching": "<Function anonymous>"
       },
-      "methodnoallow": false,
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
       "noopen": {
         "enable": true,
         "matching": "<Function anonymous>"
@@ -85,21 +88,22 @@
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-session/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-jsonp/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-onerror/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-i18n/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-watcher/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-schedule/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-logrotator/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-static/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-mock/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-mock/lib/tmp/config/locales",
-        "/Users/Floveluy/Desktop/egg-blueprint/test/fixtures/apps/blueprint-app/config/locales"
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-session/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-jsonp/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-onerror/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-i18n/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-watcher/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-schedule/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-logrotator/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-static/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-mock/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/node_modules/egg-mock/lib/tmp/config/locales",
+        "/Users/zf/Desktop/egg-blueprint/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -109,8 +113,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -127,7 +131,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/Floveluy/Desktop/egg-blueprint/test/fixtures/apps/blueprint-app/logs/blueprint-app/egg-schedule.log"
+        "file": "/Users/zf/Desktop/egg-blueprint/logs/egg-blueprint/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -141,7 +145,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/Floveluy/Desktop/egg-blueprint/test/fixtures/apps/blueprint-app/app/public",
+      "dir": "/Users/zf/Desktop/egg-blueprint/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -149,25 +153,80 @@
       "files": "<LRU>"
     },
     "view": {
-      "root": "/Users/Floveluy/Desktop/egg-blueprint/test/fixtures/apps/blueprint-app/app/view",
+      "root": [],
       "cache": true,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".tpl": "nunjucks"
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": true
     },
     "env": "unittest",
-    "name": "blueprint-app",
-    "keys": "<String len: 6>",
+    "name": "egg-blueprint",
+    "keys": "<String len: 19>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "blueprint-app"
+      "name": "egg-blueprint",
+      "version": "1.0.0",
+      "description": "Routing decorator for eggjs",
+      "private": true,
+      "main": "./lib/index.js",
+      "egg": {
+        "typescript": true
+      },
+      "dependencies": {
+        "egg": "^2.5.0",
+        "egg-scripts": "^2.5.1",
+        "egg-view-nunjucks": "^2.2.0",
+        "moment": "^2.21.0",
+        "source-map-support": "^0.5.4"
+      },
+      "devDependencies": {
+        "@types/cheerio": "^0.22.1",
+        "@types/mocha": "^2.2.40",
+        "@types/node": "^7.0.12",
+        "@types/supertest": "^2.0.0",
+        "autod": "^3.0.1",
+        "autod-egg": "^1.1.0",
+        "cheerio": "^1.0.0-rc.2",
+        "egg-bin": "^4.6.0",
+        "egg-mock": "^3.16.0",
+        "egg-ts-helper": "^1.4.2",
+        "rimraf": "^2.6.1",
+        "tslib": "^1.8.1",
+        "tslint": "^4.0.0",
+        "typescript": "^2.8.1"
+      },
+      "engines": {
+        "node": ">=8.9.0"
+      },
+      "scripts": {
+        "start": "egg-scripts start",
+        "dev": "egg-bin dev -r egg-ts-helper/register",
+        "tsc": "ets && tsc -p tsconfig.json",
+        "clean": "ets clean",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test -r egg-ts-helper/register",
+        "cov": "egg-bin cov",
+        "lint": "tslint .",
+        "ci": "npm run lint && npm run cov",
+        "debug": "egg-bin debug",
+        "autod": "autod"
+      }
     },
-    "baseDir": "/Users/Floveluy/Desktop/egg-blueprint/test/fixtures/apps/blueprint-app",
-    "HOME": "/Users/Floveluy",
-    "rundir": "/Users/Floveluy/Desktop/egg-blueprint/test/fixtures/apps/blueprint-app/run",
+    "baseDir": "/Users/zf/Desktop/egg-blueprint",
+    "HOME": "/Users/zf",
+    "rundir": "/Users/zf/Desktop/egg-blueprint/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -182,7 +241,7 @@
       "pageUrl": ""
     },
     "siteFile": {
-      "/favicon.ico": "<Buffer len: 6463>"
+      "/favicon.ico": "<Buffer len: 3113>"
     },
     "bodyParser": {
       "enable": true,
@@ -198,7 +257,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/Floveluy/Desktop/egg-blueprint/test/fixtures/apps/blueprint-app/logs/blueprint-app",
+      "dir": "/Users/zf/Desktop/egg-blueprint/logs/egg-blueprint",
       "encoding": "utf8",
       "env": "unittest",
       "level": "INFO",
@@ -206,7 +265,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": false,
-      "appLogName": "blueprint-app-web.log",
+      "appLogName": "egg-blueprint-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
@@ -261,6 +320,10 @@
     "clusterClient": {
       "responseTimeout": 60000
     },
+    "news": {
+      "pageSize": 30,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
+    },
     "coreMiddlewares": [
       "meta",
       "siteFile",
@@ -296,8 +359,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-session",
+      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -309,8 +372,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security",
+      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security",
       "version": "2.2.1"
     },
     "jsonp": {
@@ -322,8 +385,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-jsonp",
+      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -335,8 +398,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-onerror",
+      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -346,8 +409,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-i18n",
+      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -357,8 +420,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-watcher",
+      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -368,8 +431,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart",
+      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart",
       "version": "2.0.0"
     },
     "schedule": {
@@ -379,8 +442,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-schedule",
+      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -392,8 +455,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-logrotator",
+      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -403,8 +466,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-static",
+      "from": "/Users/zf/Desktop/egg-blueprint/config/plugin.ts",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-static",
       "version": "2.1.0"
     },
     "view": {
@@ -414,13 +477,27 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view",
+      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view",
       "version": "2.1.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/zf/Desktop/egg-blueprint/config/plugin.ts",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view-nunjucks",
+      "version": "2.2.0"
     },
     "egg-mock": {
       "enable": true,
-      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-mock",
+      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-mock",
       "name": "egg-mock",
       "dependencies": [],
       "optionalDependencies": [],

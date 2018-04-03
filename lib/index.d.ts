@@ -2,6 +2,12 @@ interface Decorator {
     (target: any, propertyKey: string): void
 }
 
+interface bpItem {
+    httpMethod: string
+    constructor: Function
+    handler: string
+}
+
 export interface blueprint {
     /**
      * http post method
@@ -18,10 +24,21 @@ export interface blueprint {
     del(url: string): Decorator
     options(url: string): Decorator
     put(url: string): Decorator
+
+    restfulClass(url: string): any
+
+    getRoute(): any
+
+    setRouter(urls: string, bp: bpItem): void
+    scanController(): void
+}
+
+interface RouterOptions {
+    prefix: string
 }
 
 interface Initor {
-    (app: any): void
+    (app: any, options?: RouterOptions): void
 }
 
 export const bp: blueprint

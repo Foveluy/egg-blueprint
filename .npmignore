@@ -1,0 +1,8 @@
+app
+.vscode
+config
+coverage
+logs
+run
+test
+typings
