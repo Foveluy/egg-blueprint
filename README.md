@@ -1,4 +1,5 @@
 # egg-blueprint
+[![Coverage Status](https://coveralls.io/repos/github/215566435/egg-blueprint/badge.svg?branch=master)](https://coveralls.io/github/215566435/egg-blueprint?branch=master)
 
 Routing decorator for eggjs
 
