@@ -5,7 +5,6 @@
 [![David deps][david-image]][david-url]
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
-[![npm license][license-image]][download-url]
 
 [npm-image]: https://img.shields.io/npm/v/egg-blueprint.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-blueprint
