@@ -7,9 +7,9 @@ Routing decorator for eggjs
 ### setup
 
 For isntall
-```
+```bash
 npm install --save  egg-blueprint
-``
+```
 
 
 In `router.ts`
