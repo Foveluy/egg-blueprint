@@ -3,18 +3,24 @@
     "version": "0.1.0",
     "description": "egg dependency injection lib",
     "main": "index.js",
-    "files": ["index.js", "index.d.ts"],
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ],
     "scripts": {
         "cov": "jest --collectCoverageFrom='[\"*.js\"]' --coverage",
-        "ci":
-            "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-        "test": "jest"
+        "ci": "npm run cov && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+        "test": "jest --watch",
+        "test-local": "egg-bin test"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/shepherdwind/egg-di.git"
     },
-    "keywords": ["egg", "di"],
+    "keywords": [
+        "egg",
+        "di"
+    ],
     "author": "Eward.song",
     "license": "ISC",
     "bugs": {
@@ -25,8 +31,12 @@
         "@types/node": "^8.0.0",
         "@types/should": "^11.2.0",
         "coveralls": "^2.13.3",
+        "egg": "^2.5.0",
+        "egg-bin": "^4.6.2",
+        "egg-mock": "^3.17.0",
         "jest": "^21.0.0",
         "should": "^13.1.0",
+        "supertest": "^3.0.0",
         "ts-jest": "^21.0.0",
         "ts-node": "^3.0.6",
         "tslint": "^5.4.3",
@@ -39,8 +49,15 @@
             ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
         },
         "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-        "moduleFileExtensions": ["ts", "tsx", "js"],
-        "coveragePathIgnorePatterns": ["/node_modules/", "/test/"],
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ],
+        "coveragePathIgnorePatterns": [
+            "/node_modules/",
+            "/test/"
+        ],
         "coverageThreshold": {
             "global": {
                 "branches": 90,
