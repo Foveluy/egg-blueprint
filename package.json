@@ -1,6 +1,6 @@
 {
   "name": "egg-blueprint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Routing decorator for eggjs",
   "main": "./lib/index.js",
   "egg": {
@@ -45,6 +45,7 @@
     "ci": "npm run lint && npm run cov",
     "debug": "egg-bin debug",
     "autod": "autod",
-    "coveralls": "npm run cov -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+    "coveralls": "npm run cov -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
+    "p":"cp ./lib/index.d.ts ./index.d.ts && npm publish"
   }
 }
