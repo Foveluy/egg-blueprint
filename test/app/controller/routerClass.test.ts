@@ -18,7 +18,8 @@ describe('test/app/controller/rest.test.ts', () => {
             '/put': true,
             '/rest': true,
             '/del': true,
-            '/foo/:bar': true
+            '/foo/:bar': true,
+            '/need/auth/:password': true
         }
         Object.keys(bp.getRoute()).forEach(key => {
             assert(URI[key] === true)

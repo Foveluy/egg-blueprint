@@ -41,4 +41,18 @@ describe('test/app/controller/test.test.ts', () => {
             .expect('bar')
             .expect(200)
     })
+
+    it('auth (function run before target function)', async () => {
+        await app
+            .httpRequest()
+            .get('/api/need/auth/1234')
+            .expect('authed')
+            .expect(200)
+
+        await app
+            .httpRequest()
+            .get('/api/need/auth/(!*&(*')
+            .expect('can not see')
+            .expect(200)
+    })
 })

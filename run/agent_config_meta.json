@@ -151,7 +151,6 @@
     "name": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
     "version": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
     "description": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "private": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
     "main": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
     "egg": {
       "typescript": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
@@ -171,6 +170,7 @@
       "autod": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
       "autod-egg": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
       "cheerio": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "coveralls": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
       "egg-bin": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
       "egg-mock": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
       "egg-ts-helper": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
@@ -193,7 +193,9 @@
       "lint": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
       "ci": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
       "debug": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "autod": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "autod": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "coveralls": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "p": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     }
   },
   "baseDir": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",

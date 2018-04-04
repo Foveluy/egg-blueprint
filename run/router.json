@@ -78,6 +78,30 @@
       "HEAD",
       "GET"
     ],
+    "paramNames": [
+      {
+        "name": "password",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/need/auth/:password",
+    "regexp": "/^\\/api\\/need\\/auth\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
     "paramNames": [],
     "path": "/api/rest",
     "regexp": "/^\\/api\\/rest(?:\\/(?=$))?$/",

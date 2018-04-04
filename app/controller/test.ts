@@ -1,5 +1,12 @@
 import { Controller } from 'egg'
 import { bp } from '../../lib'
+import { Context } from 'koa'
+
+const Auth = (ctx: Context) => {
+    if (ctx.params['password'] === '1234') return true
+    ctx.body = 'can not see'
+    return false
+}
 
 export default class TestController extends Controller {
     @bp.get('/get')
@@ -29,5 +36,11 @@ export default class TestController extends Controller {
     async getWithID() {
         console.log(this.ctx.params)
         this.ctx.body = this.ctx.params['bar']
+    }
+
+    @bp.get('/need/auth/:password', Auth)
+    async needAuth() {
+        const { ctx } = this
+        ctx.body = 'authed'
     }
 }

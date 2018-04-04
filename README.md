@@ -89,6 +89,34 @@ export default class index extends Controller {
     }
 ```
 
+### Router middleware
+
+Router middleware will run before the target function.
+
+***Example***
+
+```ts
+const Auth = (ctx: Context,ctl: Controller) => {
+    if (ctx.params['password'] === '1234') return true
+    ctx.body = 'can not see'
+    return false
+}
+
+
+// some-controller.ts
+export default class TestController extends Controller {
+   @bp.get('/need/auth/:password', Auth)
+    async needAuth() {
+        const { ctx } = this
+        ctx.body = 'authed'
+    }
+}
+```
+
+- middleware Params: ```Ctx:Context``` and ```ctl: Controller```, in this case, ```ctl``` is ```TestController```,not the original ```Controller```
+- if middleware returns ```false```,the target function will not run, only ```false``` can stop the whole middleware stack. the target function will continue if returns ```true``` or ```undefined```.
+
+
 
 
 ### Quick CRUD

@@ -146,9 +146,8 @@
     "hostHeaders": "",
     "pkg": {
       "name": "egg-blueprint",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Routing decorator for eggjs",
-      "private": true,
       "main": "./lib/index.js",
       "egg": {
         "typescript": true
@@ -168,6 +167,7 @@
         "autod": "^3.0.1",
         "autod-egg": "^1.1.0",
         "cheerio": "^1.0.0-rc.2",
+        "coveralls": "^3.0.0",
         "egg-bin": "^4.6.0",
         "egg-mock": "^3.16.0",
         "egg-ts-helper": "^1.4.2",
@@ -190,7 +190,9 @@
         "lint": "tslint .",
         "ci": "npm run lint && npm run cov",
         "debug": "egg-bin debug",
-        "autod": "autod"
+        "autod": "autod",
+        "coveralls": "npm run cov -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
+        "p": "cp ./lib/index.d.ts ./index.d.ts && npm publish"
       }
     },
     "baseDir": "/Users/zf/Desktop/egg-blueprint",
