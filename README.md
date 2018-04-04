@@ -25,7 +25,7 @@ Routing decorator for eggjs
 
 
 
-### For isntall
+### For install
 ```bash
 npm install --save  egg-blueprint
 ```

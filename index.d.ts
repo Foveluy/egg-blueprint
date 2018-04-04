@@ -1,3 +1,5 @@
+import { Controller, Context } from 'egg'
+
 interface Decorator {
     (target: any, propertyKey: string): void
 }
@@ -8,24 +10,28 @@ interface bpItem {
     handler: string
 }
 
+interface BeforeFunction {
+    (ctx: Context, instance: Controller): Boolean | undefined
+}
+
 export interface blueprint {
     /**
      * http post method
      * @param url
      */
-    post(url: string): Decorator
+    post(url: string, before?: BeforeFunction): Decorator
 
     /**
      * http get method
      * @param url
      */
-    get(url: string): Decorator
-    patch(url: string): Decorator
-    del(url: string): Decorator
-    options(url: string): Decorator
-    put(url: string): Decorator
+    get(url: string, before?: BeforeFunction): Decorator
+    patch(url: string, before?: BeforeFunction): Decorator
+    del(url: string, before?: BeforeFunction): Decorator
+    options(url: string, before?: BeforeFunction): Decorator
+    put(url: string, before?: BeforeFunction): Decorator
 
-    restfulClass(url: string): any
+    restfulClass(url: string, before?: BeforeFunction): any
 
     getRoute(): any
 
