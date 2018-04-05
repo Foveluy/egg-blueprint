@@ -44,7 +44,7 @@ export default (app: Application) => {
 
 ```
 
-### for prefix url
+# prefix url
 ```js
 //router.ts
 Blueprint(app,{prefix:'/api'})
@@ -60,7 +60,7 @@ export default class index extends Controller {
 ```
 
 
-### start routing
+# start routing
 
 ```js
 import { bp } from 'egg-blueprint'
@@ -79,7 +79,7 @@ export default class index extends Controller {
 }
 ```
 
-### adding parmas
+# adding parmas
 
 ```js
   @bp.get('/foo/:bar')
@@ -89,7 +89,7 @@ export default class index extends Controller {
     }
 ```
 
-### Router middleware
+# Router middleware
 
 Router middleware will run before the target function.
 
@@ -119,7 +119,7 @@ export default class TestController extends Controller {
 
 
 
-### Quick CRUD
+# Quick CRUD
 
 ```js
 import { bp } from 'egg-blueprint'
