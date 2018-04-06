@@ -44,7 +44,7 @@ export default (app: Application) => {
 
 ```
 
-# Prefix url for all of endpoint
+# Prefix url globally
 ```js
 //router.ts
 Blueprint(app,{prefix:'/api'})
@@ -115,7 +115,7 @@ export default class index extends Controller {
 }
 ```
 
-# adding parmas
+# Adding parmas
 
 ```js
   @bp.get('/foo/:bar')
