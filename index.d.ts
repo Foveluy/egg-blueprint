@@ -33,6 +33,8 @@ export interface blueprint {
 
     restfulClass(url: string, before?: BeforeFunction): any
 
+    prefix(url:string,controllerName:string):any
+
     getRoute(): any
 
     setRouter(urls: string, bp: bpItem): void

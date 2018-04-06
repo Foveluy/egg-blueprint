@@ -30,7 +30,7 @@ Routing decorator for eggjs
 npm install --save  egg-blueprint
 ```
 
-### setup
+### Setup
 In `router.ts`
 
 ```ts
@@ -44,7 +44,7 @@ export default (app: Application) => {
 
 ```
 
-# prefix url for all of endpoint
+# Prefix url for all of endpoint
 ```js
 //router.ts
 Blueprint(app,{prefix:'/api'})
@@ -59,14 +59,14 @@ export default class index extends Controller {
 
 ```
 
-# prefix url for controller
+# Prefix url for controller
 ```js
 
 //controller.ts
 
 bp.prefix('/prefixtest', 'index')
 export default class index extends Controller {
-    @bp.get('/user') //===>>/api/user
+    @bp.get('/user') //===>>/prefixtest/user
     async get() {
         this.ctx.body = 'hello,egg-blueprint'
     }
@@ -74,11 +74,29 @@ export default class index extends Controller {
 
 ```
 
-***NOTICE***: ```bp.prefix``` is not a decorator function. The first argument is prefix url, the second is ***the class name of this controller.
+***NOTICE 1***: ```bp.prefix``` is not a decorator function. The first argument is prefix url, the second is ***the class name of this controller.
+
+***NOTICE 2***: If you have already setup a global ```prefix option```,controller prefix function will do the next:
+
+```js
+//router.ts
+Blueprint(app,{prefix:'/api'})
+
+//controller.ts
+bp.prefix('/prefixtest', 'index')
+export default class index extends Controller {
+    @bp.get('/user') //===>>/api/prefixtest/user
+    async get() {
+        this.ctx.body = 'hello,egg-blueprint'
+    }
+}
+
+```
 
 
 
-# start routing
+
+# Start routing
 
 ```js
 import { bp } from 'egg-blueprint'
