@@ -1,281 +1,281 @@
 {
-  "keys": "/Users/zf/Desktop/egg-blueprint/config/config.default.ts",
+  "keys": "/Users/Floveluy/Desktop/egg-blueprint/config/config.default.ts",
   "view": {
-    "root": "/Users/zf/Desktop/egg-blueprint/config/config.default.ts",
-    "defaultViewEngine": "/Users/zf/Desktop/egg-blueprint/config/config.default.ts",
+    "root": "/Users/Floveluy/Desktop/egg-blueprint/config/config.default.ts",
+    "defaultViewEngine": "/Users/Floveluy/Desktop/egg-blueprint/config/config.default.ts",
     "mapping": {
-      ".tpl": "/Users/zf/Desktop/egg-blueprint/config/config.default.ts"
+      ".tpl": "/Users/Floveluy/Desktop/egg-blueprint/config/config.default.ts"
     },
-    "cache": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view/config/config.default.js",
-    "defaultExtension": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view/config/config.default.js"
+    "cache": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/zf/Desktop/egg-blueprint/config/config.default.ts"
+    "/favicon.ico": "/Users/Floveluy/Desktop/egg-blueprint/config/config.default.ts"
   },
   "news": {
-    "pageSize": "/Users/zf/Desktop/egg-blueprint/config/config.default.ts",
-    "serverUrl": "/Users/zf/Desktop/egg-blueprint/config/config.default.ts"
+    "pageSize": "/Users/Floveluy/Desktop/egg-blueprint/config/config.default.ts",
+    "serverUrl": "/Users/Floveluy/Desktop/egg-blueprint/config/config.default.ts"
   },
   "session": {
-    "maxAge": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-session/config/config.default.js"
+    "maxAge": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-session/config/config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     },
     "xframe": {
-      "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "maxAge": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
     }
   },
   "helper": {
-    "shtml": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
+    "shtml": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-watcher/config/config.unittest.js",
+    "type": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-watcher/config/config.unittest.js",
     "eventSources": {
-      "default": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-watcher/config/config.default.js"
+      "default": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js"
+    "autoFields": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart/config/config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-schedule/config/config.default.js",
-      "file": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js"
+    "prefix": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-static/config/config.default.js"
   },
   "nunjucks": {
-    "autoescape": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/config.default.js",
-    "throwOnUndefined": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/config.default.js",
-    "trimBlocks": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/config.default.js",
-    "lstripBlocks": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/config.default.js",
-    "cache": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/config.default.js"
+    "autoescape": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view-nunjucks/config/config.default.js"
   },
-  "env": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-  "name": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "env": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "name": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "version": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "description": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "main": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "name": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "version": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "description": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "main": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
     "egg": {
-      "typescript": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "typescript": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
-      "egg": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "egg-view-nunjucks": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "moment": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "source-map-support": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "egg": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "moment": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "source-map-support": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "@types/cheerio": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "@types/mocha": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "@types/node": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "@types/supertest": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "autod": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "autod-egg": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "cheerio": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "coveralls": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "egg-bin": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "egg-ts-helper": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "rimraf": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "tslib": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "tslint": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "typescript": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "@types/cheerio": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "@types/mocha": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "@types/supertest": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "autod": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "cheerio": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "coveralls": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "egg-ts-helper": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "rimraf": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     },
     "engines": {
-      "node": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "node": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     },
     "scripts": {
-      "start": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "dev": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "tsc": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "clean": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "test": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "test-local": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "cov": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "lint": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "ci": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "debug": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "autod": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "coveralls": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "p": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "start": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "dev": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "clean": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "test": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "cov": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "lint": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "ci": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "debug": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "autod": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "coveralls": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "p": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     }
   },
-  "baseDir": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "baseDir": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+    "ignore": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+    "bodyparser": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+    "pageUrl": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "strict": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "strict": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "depth": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "arrayLimit": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "depth": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     }
   },
   "logger": {
-    "dir": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "env": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "level": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.unittest.js",
-    "disableConsoleAfterReady": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.unittest.js",
-    "appLogName": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "coreLogger": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "allowDebugAtProd": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+    "dir": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "env": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "level": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.unittest.js",
+    "disableConsoleAfterReady": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.unittest.js",
+    "appLogName": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "coreLogger": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxAge": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "timeout": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-    "logging": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+    "enable": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+    "logging": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "port": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "port": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "responseTimeout": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
+    "responseTimeout": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/config.default.js"
   }
 }

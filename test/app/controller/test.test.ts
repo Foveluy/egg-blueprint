@@ -55,4 +55,53 @@ describe('test/app/controller/test.test.ts', () => {
             .expect('can not see')
             .expect(200)
     })
+
+    it('(prefixclass)should CRUD for test.ts', async () => {
+        app.mockCsrf()
+        await app
+            .httpRequest()
+            .get('/api/prefixtest/get')
+            .expect('bp get')
+            .expect(200)
+
+        await app
+            .httpRequest()
+            .post('/api/prefixtest/post')
+            .expect(strBody({ foo: 'bar' }))
+            .expect(200)
+
+        await app
+            .httpRequest()
+            .put('/api/prefixtest/put')
+            .expect(strBody({ poo: 'par' }))
+            .expect(200)
+
+        await app
+            .httpRequest()
+            .del('/api/prefixtest/del')
+            .expect(strBody({ del: 'dels' }))
+            .expect(200)
+    })
+
+    it('(prefixclass)url params for test.ts', async () => {
+        await app
+            .httpRequest()
+            .get('/api/prefixtest/foo/bar')
+            .expect('bar')
+            .expect(200)
+    })
+
+    it('(prefixclass)auth (function run before target function)', async () => {
+        await app
+            .httpRequest()
+            .get('/api/prefixtest/need/auth/1234')
+            .expect('authed')
+            .expect(200)
+
+        await app
+            .httpRequest()
+            .get('/api/prefixtest/need/auth/(!*&(*')
+            .expect('can not see')
+            .expect(200)
+    })
 })

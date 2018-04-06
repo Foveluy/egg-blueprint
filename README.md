@@ -44,7 +44,7 @@ export default (app: Application) => {
 
 ```
 
-# prefix url
+# prefix url for all of endpoint
 ```js
 //router.ts
 Blueprint(app,{prefix:'/api'})
@@ -58,6 +58,24 @@ export default class index extends Controller {
 }
 
 ```
+
+# prefix url for controller
+```js
+
+//controller.ts
+
+bp.prefix('/prefixtest', 'index')
+export default class index extends Controller {
+    @bp.get('/user') //===>>/api/user
+    async get() {
+        this.ctx.body = 'hello,egg-blueprint'
+    }
+}
+
+```
+
+***NOTICE***: ```bp.prefix``` is not a decorator function. The first argument is prefix url, the second is ***the class name of this controller.
+
 
 
 # start routing

@@ -8,7 +8,8 @@ const Auth = (ctx: Context) => {
     return false
 }
 
-export default class TestController extends Controller {
+bp.prefix('/prefixtest', 'PrefixController')
+export default class PrefixController extends Controller {
     @bp.get('/get')
     public async index() {
         const { ctx } = this

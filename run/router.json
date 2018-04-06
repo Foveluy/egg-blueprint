@@ -103,6 +103,103 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/api/prefixtest/get",
+    "regexp": "/^\\/api\\/prefixtest\\/get(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/prefixtest/post",
+    "regexp": "/^\\/api\\/prefixtest\\/post(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [],
+    "path": "/api/prefixtest/put",
+    "regexp": "/^\\/api\\/prefixtest\\/put(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [],
+    "path": "/api/prefixtest/del",
+    "regexp": "/^\\/api\\/prefixtest\\/del(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "bar",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/prefixtest/foo/:bar",
+    "regexp": "/^\\/api\\/prefixtest\\/foo\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "password",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/prefixtest/need/auth/:password",
+    "regexp": "/^\\/api\\/prefixtest\\/need\\/auth\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/api/rest",
     "regexp": "/^\\/api\\/rest(?:\\/(?=$))?$/",
     "stack": [

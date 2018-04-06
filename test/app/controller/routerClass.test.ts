@@ -13,11 +13,17 @@ describe('test/app/controller/rest.test.ts', () => {
     it('url mapping correctly', async () => {
         Blueprint(app)
         const URI = {
+            '/prefixtest/get': true,
+            '/prefixtest/post': true,
+            '/prefixtest/put': true,
+            '/prefixtest/del': true,
+            '/prefixtest/foo/:bar': true,
+            '/prefixtest/need/auth/:password': true,
             '/get': true,
             '/post': true,
             '/put': true,
-            '/rest': true,
             '/del': true,
+            '/rest': true,
             '/foo/:bar': true,
             '/need/auth/:password': true
         }

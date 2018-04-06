@@ -83,8 +83,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -101,7 +101,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/zf/Desktop/egg-blueprint/logs/egg-blueprint/egg-schedule.log"
+        "file": "/Users/Floveluy/Desktop/egg-blueprint/logs/egg-blueprint/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -115,14 +115,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/zf/Desktop/egg-blueprint/app/public",
+      "dir": "/Users/Floveluy/Desktop/egg-blueprint/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/zf/Desktop/egg-blueprint/app/view",
+      "root": "/Users/Floveluy/Desktop/egg-blueprint/app/view",
       "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -146,7 +146,7 @@
     "hostHeaders": "",
     "pkg": {
       "name": "egg-blueprint",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "description": "Routing decorator for eggjs",
       "main": "./lib/index.js",
       "egg": {
@@ -195,9 +195,9 @@
         "p": "cp ./lib/index.d.ts ./index.d.ts && npm publish"
       }
     },
-    "baseDir": "/Users/zf/Desktop/egg-blueprint",
-    "HOME": "/Users/zf",
-    "rundir": "/Users/zf/Desktop/egg-blueprint/run",
+    "baseDir": "/Users/Floveluy/Desktop/egg-blueprint",
+    "HOME": "/Users/Floveluy",
+    "rundir": "/Users/Floveluy/Desktop/egg-blueprint/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -227,7 +227,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/zf/Desktop/egg-blueprint/logs/egg-blueprint",
+      "dir": "/Users/Floveluy/Desktop/egg-blueprint/logs/egg-blueprint",
       "encoding": "utf8",
       "env": "unittest",
       "level": "INFO",
@@ -307,8 +307,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-session",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -320,8 +320,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-security",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-security",
       "version": "2.2.1"
     },
     "jsonp": {
@@ -333,8 +333,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-jsonp",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -346,8 +346,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-onerror",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -357,8 +357,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-i18n",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -368,8 +368,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-watcher",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -379,8 +379,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-multipart",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-multipart",
       "version": "2.0.0"
     },
     "schedule": {
@@ -390,8 +390,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-schedule",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -403,8 +403,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-logrotator",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -414,8 +414,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/config/plugin.ts",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-static",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/config/plugin.ts",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-static",
       "version": "2.1.0"
     },
     "view": {
@@ -425,8 +425,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg/config/plugin.js",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view",
       "version": "2.1.0"
     },
     "nunjucks": {
@@ -439,13 +439,13 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/zf/Desktop/egg-blueprint/config/plugin.ts",
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-view-nunjucks",
+      "from": "/Users/Floveluy/Desktop/egg-blueprint/config/plugin.ts",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-view-nunjucks",
       "version": "2.2.0"
     },
     "egg-mock": {
       "enable": true,
-      "path": "/Users/zf/Desktop/egg-blueprint/node_modules/egg-mock",
+      "path": "/Users/Floveluy/Desktop/egg-blueprint/node_modules/egg-mock",
       "name": "egg-mock",
       "dependencies": [],
       "optionalDependencies": [],
