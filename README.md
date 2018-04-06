@@ -25,7 +25,7 @@ Routing decorator for eggjs
 
 
 
-### For install
+### For Install
 ```bash
 npm install --save  egg-blueprint
 ```
@@ -44,7 +44,7 @@ export default (app: Application) => {
 
 ```
 
-# Prefix url globally
+# Prefix Url Globally
 ```js
 //router.ts
 Blueprint(app,{prefix:'/api'})
@@ -59,7 +59,7 @@ export default class index extends Controller {
 
 ```
 
-# Prefix url for controller
+# Prefix Url For Controller
 ```js
 
 //controller.ts
@@ -96,7 +96,7 @@ export default class index extends Controller {
 
 
 
-# Start routing
+# Start Routing
 
 ```js
 import { bp } from 'egg-blueprint'
@@ -115,7 +115,7 @@ export default class index extends Controller {
 }
 ```
 
-# Adding parmas
+# Adding Parmas
 
 ```js
   @bp.get('/foo/:bar')
@@ -125,7 +125,7 @@ export default class index extends Controller {
     }
 ```
 
-# Router middleware
+# Router Middleware
 
 Router middleware will run before the target function.
 
