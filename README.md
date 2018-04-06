@@ -51,7 +51,7 @@ Blueprint(app,{prefix:'/api'})
 
 //controller.ts
 export default class index extends Controller {
-    @bp.route.get('/user') //===>>/api/user
+    @bp.get('/user') //===>>/api/user
     async get() {
         this.ctx.body = 'hello,egg-blueprint'
     }
@@ -66,12 +66,12 @@ export default class index extends Controller {
 import { bp } from 'egg-blueprint'
 
 export default class index extends Controller {
-    @bp.route.get('/')
+    @bp.get('/')
     async get() {
         this.ctx.body = 'hello,egg-blueprint'
     }
 
-    @bp.route.post('/')
+    @bp.post('/')
     async post() {
         this.ctx.body = 'hello,post,egg-blueprint'
     }
@@ -124,7 +124,7 @@ export default class TestController extends Controller {
 ```js
 import { bp } from 'egg-blueprint'
 
-bp.restfulClass('blueprint')
+@bp.restfulClass('blueprint')
 export default class Index extends Controller {
     async Get() {
         this.ctx.body = 'hello,egg-blueprint'
