@@ -1,6 +1,6 @@
 {
   "name": "egg-blueprint",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Routing decorator for eggjs",
   "main": "./lib/index.js",
   "egg": {
