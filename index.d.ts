@@ -10,8 +10,8 @@ interface bpItem {
     handler: string
 }
 
-interface BeforeFunction {
-    (ctx: Context, instance: Controller): Boolean | undefined
+interface BeforeFunction<T> {
+    (ctx: Context, instance: T): Boolean | undefined
 }
 
 export interface blueprint {
